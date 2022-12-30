@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: 'http://dongboli.netlify.app'
 languageCode: en-us
 title: Dongbo Li 
 theme: hugo-theme-cactus
@@ -15,7 +15,7 @@ menu:
     - name: Resources
       url: /resources
       weight: 3
-    - name: CV
+    - name: About
       url: /about
       weight: 4
 markup:
