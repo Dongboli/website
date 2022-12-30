@@ -1,0 +1,68 @@
+baseURL: /
+languageCode: en-us
+title: Dongbo Li 
+theme: hugo-theme-cactus
+copyright: DBL
+disqusShortname: example
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Publication
+      url: /posts
+      weight: 2
+    - name: Resources
+      url: /resources
+      weight: 3
+    - name: CV
+      url: /about
+      weight: 4
+markup:
+  highlight:
+    codeFences: yes
+    guessSyntax: no
+    hl_Lines: ''
+    lineNoStart: 1
+    lineNos: yes
+    lineNumbersInTable: no
+    noClasses: yes
+    style: dracula
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 4
+    ordered: no
+    startLevel: 2
+params:
+  colortheme: white
+  comments:
+    cactuscomments:
+      siteName: your_cactus_comments_sitename
+    enabled: yes
+    engine: cactus_comments
+    utterances:
+      label: hugo-site-name
+      repo: <github_username>/<github_reponame>
+      theme: github-light
+  dateFormat: '2023-01-02'
+  description: Hello! My name is Dongbo Li, and I am a PhD student at University of Bristol. I'm interested in how spatial and temporal ecological process shape populations and communities.I use evidence-based approach including lab-based microcosms and field experiments.
+  googleAnalyticsAsync: yes
+  mainSection:  #post
+  postsOnHomePage: 0 #5 set up how many of them preview
+  projectsUrl: /
+  rss: yes
+  show_updated: no #yes
+  showAllPostsArchive: no #yes
+  showAllPostsOnHomePage: no ##show all updates
+  showProjectsList: no
+  showReadTime: yes
+  social:
+    - link: https://github.com/Dongboli
+      name: github
+    - link: https://twitter.com/Dongbo_
+      name: twitter
+    - link: dongbo.li@bristol.ac.uk
+      name: email
+    - link: https://scholar.google.com/citations?user=OhMHE5EAAAAJ&hl=en
+      name: google scholar
+  tagsOverview: no ##preview sections
