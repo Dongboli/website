@@ -38,7 +38,11 @@
   </section>
 
   <section id="writing">
+<<<<<<< HEAD
     <span class="h1"><a href="{{ .Site.Params.mainSection | absURL }}">{{ .Site.Params.mainSectionTitle | default " " }}</a></span> 
+=======
+    <span class="h1"><a href="{{ .Site.Params.mainSection | absURL }}">{{ .Site.Params.mainSectionTitle | default " " }}</a></span>
+>>>>>>> 66025d0e4ffa20ac02d39ae6c624ed0a9efd306b
     {{ if (and (and (isset .Site.Params "tagsoverview") (eq .Site.Params.tagsOverview true)) (gt (len .Site.Taxonomies.tags) 0)) }}
     <span class="h2">Topics</span>
     <span class="widget tagcloud">
