@@ -1,9 +1,13 @@
-baseURL: 'http://dongboli.netlify.app'
+baseURL: /
 languageCode: en-us
 title: Dongbo Li 
 theme: hugo-theme-cactus
 copyright: DBL
 disqusShortname: example
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
 menu:
   main:
     - name: Home
