@@ -10,6 +10,14 @@ title: About me
 
 2011-2015 Undergraduate, Fujian A&F university
 
+# Academic organisations
+
+2019 - British Ecological Society
+
 # Presentations
 
-2022
+Dec 2022, BES annual conference, Edinburgh (oral)
+
+Dec 2021, BES annual conference, Liverpool (in person poster)
+
+Dec 2020, BES anuual conference, Online (poster)
